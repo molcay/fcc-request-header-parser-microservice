@@ -1,0 +1,38 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+         <h1>Request Header Parser Microservice</h1>
+         <blockquote>
+                User story:
+                <ul>1) I can get the IP address, language and operating system for my browser.</ul>
+            </blockquote>
+            <h3>Example usage:</h3>
+            <code>https://important-razor.glitch.me/whoami</code> <a href="/whoami">Test</a><br>
+            <h3>Example output:</h3>
+            <code>
+                {
+                  "ipadress": "78.168.250.103",
+                  "language": "en-US",
+                  "software": "X11; Ubuntu; Linux x86_64; rv:55.0"
+                }
+            </code>
+      </div>
+
+  </body>
+</html>
